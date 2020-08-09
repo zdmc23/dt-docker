@@ -45,7 +45,7 @@ services:
   wordpress:
      depends_on:
        - db
-     image: wordpress:latest
+     image: zdmc23/disciple.tools:0.31.1-mobile0.7-maarifa0.5.4
      volumes:
        - wp_data:/var/www/html
      restart: always
